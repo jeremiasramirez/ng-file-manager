@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { ComponentsModule } from '../components/components.module';
 import { ROUTING_MAIN } from '../routing/start-app.routing';
 import { MainPage } from './main/main.page';
 import { StartPage } from './start/start.page';
@@ -14,7 +15,8 @@ import { StartPage } from './start/start.page';
   ],
   imports: [
     BrowserModule,
-    ROUTING_MAIN
+    ROUTING_MAIN,  
+    ComponentsModule,
   ]
 })
 export class PageModule { }

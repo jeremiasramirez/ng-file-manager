@@ -3,7 +3,8 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { PageModule } from './pages/pages.module';
-import { ComponentsModule } from './components/components.module';
+// import { ComponentsModule } from './components/components.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { ComponentsModule } from './components/components.module';
   imports: [
     BrowserModule,
     PageModule,
-    ComponentsModule
+  
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
