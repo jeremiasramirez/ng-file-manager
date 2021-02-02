@@ -17,6 +17,13 @@ import { StartPage } from './start/start.page';
     BrowserModule,
     ROUTING_MAIN,  
     ComponentsModule,
+  ],
+  exports: [
+    StartPage,
+    MainPage,
+    ROUTING_MAIN,  
+    ComponentsModule,
   ]
+
 })
 export class PageModule { }
