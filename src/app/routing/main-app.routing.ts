@@ -1,10 +1,12 @@
 import { Routes, RouterModule} from '@angular/router';
+import { MainPage } from '../pages/main/main.page';
 import { StartPage } from '../pages/start/start.page';
 
 
 const ROUTES :Routes= [
 
     {path: 'start', component: StartPage},
+    {path: 'main', component: MainPage},
     {path: '', component: StartPage},
     {path: '**', component: StartPage}
 ]
