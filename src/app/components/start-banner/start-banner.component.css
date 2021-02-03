@@ -1,0 +1,49 @@
+.container__slide {
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.container__image{
+    width: 410px;
+    height: 420px;
+}
+@media screen and (max-width: 620px){
+    .container__image{
+        width: 319px;
+        height: 320px;
+    }
+}
+.container__image img{
+    width: inherit;
+    margin-top:10px;
+}
+.title__banner{
+    font-weight: 700;
+    font-size:22px;
+    margin:3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(37, 10, 99);
+}
+
+.container__content{
+    padding:8px;
+}
+
+.description{
+    color: #444;
+    font-size:16px;
+    font-family: Arial, Helvetica, sans-serif;
+    width:318px;
+}
+
+.btn__start{
+    width: 280px;
+    color: white;
+    border:none !important;
+    border-radius: 8px !important;
+    font-family: sans-serif;
+    background-color: rgb(39, 16, 119);
+}

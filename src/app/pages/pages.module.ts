@@ -16,7 +16,7 @@ import { StartPage } from './start/start.page';
   imports: [
     BrowserModule,
     ROUTING_MAIN,  
-    ComponentsModule,
+    ComponentsModule 
   ],
   exports: [
     StartPage,

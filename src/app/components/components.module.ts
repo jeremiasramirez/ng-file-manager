@@ -7,16 +7,16 @@ import {MatButtonModule} from "@angular/material/button";
 @NgModule({
   declarations: [     
    
-  StartBannerComponent,
-  // MatButtonModule
-
+  StartBannerComponent ,
+ 
 ],
   imports: [
-    BrowserModule 
+    BrowserModule ,
+    MatButtonModule,
   ],
   exports: [
-    StartBannerComponent ,
-    // MatButtonModule
+    
+    StartBannerComponent  
   ]  
 })
 export class ComponentsModule { }
