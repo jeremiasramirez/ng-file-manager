@@ -2,3 +2,20 @@
 
 html, body { height: 100%;}
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+.scale{
+    animation: scaleElement .8s linear;
+    transition:1s;
+}
+@keyframes scaleElement{
+    from{
+        transform: scale(.2);
+        opacity: 0;
+    }
+    to{
+        transform: scale(.6);
+        opacity: 1;
+    }
+
+}

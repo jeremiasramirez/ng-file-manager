@@ -15,6 +15,6 @@
     background-color: rgb(243, 240, 240);
 }
 .item__image img{
-    transform:scale(.7);
+    transform:scale(.6);
     width:inherit;
 }
