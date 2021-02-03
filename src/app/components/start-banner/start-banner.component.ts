@@ -8,7 +8,7 @@ import { ServiceHelpers } from 'src/app/services/service.helpers';
   styleUrls: ['./start-banner.component.css']
 })
 export class StartBannerComponent implements OnInit {
-  private isLoading : boolean = false;
+  public isLoading : boolean = false;
 
   constructor(private helper:ServiceHelpers) {
 
