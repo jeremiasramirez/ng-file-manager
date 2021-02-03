@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ServiceHelpers } from 'src/app/services/service.helpers';
 
 @Component({
   selector: 'app-start-banner',
@@ -7,9 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class StartBannerComponent implements OnInit {
 
-  constructor() { }
+  constructor(private helper:ServiceHelpers) {
+
+   }
 
   ngOnInit(): void {
+  }
+
+  toMain() : void{
+    this.helper.to("/main");
   }
 
 }

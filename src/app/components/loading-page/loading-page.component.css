@@ -1,0 +1,20 @@
+.container__loading{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.item__image{
+    height:200px;
+    border-radius: 50%;
+    width: 200px;
+    background-color: rgb(243, 240, 240);
+}
+.item__image img{
+    transform:scale(.7);
+    width:inherit;
+}

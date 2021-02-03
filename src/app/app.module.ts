@@ -7,6 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatButtonModule} from "@angular/material/button"; 
 import { ROUTING_MAIN } from './routing/start-app.routing';
 import { PageModule } from './pages/pages.module';
+import { ServiceHelpers } from './services/service.helpers';
  
 @NgModule({
   declarations: [
@@ -21,7 +22,9 @@ import { PageModule } from './pages/pages.module';
     ROUTING_MAIN,  
     BrowserAnimationsModule
   ],
-  providers: [],
+  providers: [
+    ServiceHelpers
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
