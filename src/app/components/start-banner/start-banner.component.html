@@ -3,20 +3,20 @@
 <section class="container__slide" *ngIf="!isLoading">
 
 
-    <article class="container__image">
+    <article class="container__image animate">
         <img src="../../../assets/images/start-app.svg" alt="start app logo">
     </article>
 
-    <article class="container__content">
+    <article class="container__content animate">
         <h1 class="title__banner">Organiza tus archivos en un solo lugar!</h1>
     </article>
 
-    <article class="container__content description">
+    <article class="container__content description fadeUp">
         <p>Organiza tus archivos y carpetas, y  aprovecha el almacenamiento en la nube
         </p>
     </article>
 
     <article class="container__content">
-        <button (click)="toMain()" class="btn__start" mat-button>EMPEZAR</button>
+        <button (click)="toMain()" class="btn__start animate" mat-button>EMPEZAR</button>
     </article>
 </section>

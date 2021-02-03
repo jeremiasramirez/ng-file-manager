@@ -19,3 +19,38 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     }
 
 }
+
+
+
+
+
+
+.animate{
+    animation: animateElement .6s linear;
+    transition:1s;
+}
+@keyframes animateElement{
+    from{ 
+        opacity: 0;
+    }
+    to{ 
+        opacity: 1;
+    }
+
+}
+
+.fadeUp{
+    animation: fadeElement .8s linear;
+    transition:1s;
+}
+@keyframes fadeElement{
+    from{ 
+        opacity: .3;
+        transform: translateY(8px);
+    }
+    to{ 
+        opacity: 1;
+        transform: translateY(1);
+    }
+
+}
