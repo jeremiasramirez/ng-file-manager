@@ -1,5 +1,6 @@
-<app-loading-page></app-loading-page>
-<section class="container__slide">
+<app-loading-page *ngIf="isLoading"></app-loading-page>
+
+<section class="container__slide" *ngIf="!isLoading">
 
 
     <article class="container__image">

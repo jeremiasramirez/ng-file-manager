@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { timer } from 'rxjs';
 import { ServiceHelpers } from 'src/app/services/service.helpers';
 
 @Component({
@@ -7,16 +8,26 @@ import { ServiceHelpers } from 'src/app/services/service.helpers';
   styleUrls: ['./start-banner.component.css']
 })
 export class StartBannerComponent implements OnInit {
+  private isLoading : boolean = false;
 
   constructor(private helper:ServiceHelpers) {
 
-   }
+  }
 
   ngOnInit(): void {
   }
 
   toMain() : void{
-    this.helper.to("/main");
+    this.helper.to("/main",1600);
+    this.addTimerForLoading(1600)
+    
   }
+  addTimerForLoading(time:number=100): void{
+    this.isLoading=true;
+
+    timer(time).subscribe(()=>{
+      this.isLoading=false; 
+    })
+}
 
 }
