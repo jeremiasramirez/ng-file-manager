@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { ComponentsModule } from '../components/components.module';
 import { ROUTING_MAIN } from '../routing/start-app.routing';
+import { ListStorage } from '../services/service.list-storage';
 import { MainPage } from './main/main.page';
 import { StartPage } from './start/start.page';
  
@@ -23,6 +24,9 @@ import { StartPage } from './start/start.page';
     MainPage,
     ROUTING_MAIN,  
     ComponentsModule,
+  ],
+  providers: [
+    ListStorage
   ]
 
 })

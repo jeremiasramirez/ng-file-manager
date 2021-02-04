@@ -9,7 +9,7 @@ const ROUTES :Routes= [
     {path: 'start', component: StartPage},
     {path: 'main', component: MainPage},
     {path: 'main/files', component: FilesPage},
-    {path: '', component: StartPage},
+    {path: '', component: StartPage, },
     {path: '**', component: StartPage}
 ]
 

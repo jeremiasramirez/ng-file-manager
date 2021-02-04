@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ListStorage } from 'src/app/services/service.list-storage';
 
 @Component({
     selector: 'main-page',
@@ -11,6 +12,6 @@ import { Component } from '@angular/core';
 
 export class MainPage{
     
-    constructor(){}
+    constructor(private storageList:ListStorage){}
 
 } 
