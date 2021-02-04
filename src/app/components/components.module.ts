@@ -5,6 +5,7 @@ import {MatButtonModule} from "@angular/material/button";
 import { LoadingPageComponent } from './loading-page/loading-page.component';
 import { BannerUserComponent } from './banner-user/banner-user.component';
 import { IconComponent } from './icon/icon.component';
+import { ListStorageComponent } from './list-storage/list-storage.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { IconComponent } from './icon/icon.component';
   StartBannerComponent,
   LoadingPageComponent,
   BannerUserComponent,
-  IconComponent
+  IconComponent,
+  ListStorageComponent
  
 ],
   imports: [

@@ -12,7 +12,7 @@ import { ListStorage } from 'src/app/services/service.list-storage';
 
 export class MainPage{
     
-    protected listStorage : any[] = [];
+    public listStorage : any[] = [];
 
 
     constructor(private storageList:ListStorage){
