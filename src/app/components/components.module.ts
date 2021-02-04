@@ -4,12 +4,16 @@ import { StartBannerComponent } from './start-banner/start-banner.component';
 import {MatButtonModule} from "@angular/material/button";
 import { LoadingPageComponent } from './loading-page/loading-page.component';
 import { BannerUserComponent } from './banner-user/banner-user.component';
+import { IconComponent } from './icon/icon.component';
 
 
 @NgModule({
   declarations: [     
    
-  StartBannerComponent, LoadingPageComponent, BannerUserComponent ,
+  StartBannerComponent,
+  LoadingPageComponent,
+  BannerUserComponent,
+  IconComponent
  
 ],
   imports: [
@@ -18,7 +22,10 @@ import { BannerUserComponent } from './banner-user/banner-user.component';
   ],
   exports: [
     
-    StartBannerComponent  
+    StartBannerComponent,
+  LoadingPageComponent,
+  BannerUserComponent,
+  IconComponent 
   ]  
 })
 export class ComponentsModule { }

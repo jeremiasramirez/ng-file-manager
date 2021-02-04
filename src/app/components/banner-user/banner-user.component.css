@@ -1,3 +1,16 @@
 .container__banner__user{
-    
+    height: 230px;
+    width: 100%;
+    background-color: rgb(68, 29, 209);    
+}
+
+.user_navbar{
+    display:flex;
+    justify-content: space-between;
+}
+
+.user{
+
+    margin: 8px 6px;
+
 }
