@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ServiceHelpers } from './services/service.helpers';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'file-manager';
+  constructor(private route:ServiceHelpers){
+    this.route.to("/start",0)
+  }
 }

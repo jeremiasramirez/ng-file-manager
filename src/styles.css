@@ -40,12 +40,12 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 }
 
 .fadeUp{
-    animation: fadeElement .8s linear;
+    animation: fadeElement .8s .2s linear;
     transition:1s;
 }
 @keyframes fadeElement{
     from{ 
-        opacity: .3;
+        opacity: 0;
         transform: translateY(8px);
     }
     to{ 
@@ -58,7 +58,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 .fadeInLeft{
     width:100% !important;
     height:100% !important;
-    animation:fadeLeft .3s linear !important;
+    animation:fadeLeft .2s linear !important;
 }
 @keyframes fadeLeft{
     from{

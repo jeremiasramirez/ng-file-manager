@@ -27,7 +27,7 @@
 
 .welcome__text h1{
     font-weight: bold;
-    font-size: 22px;
+    font-size: 24px;
     margin:0;
     
 }
@@ -62,7 +62,7 @@
     /* display: inline-block; */
     content: " ";
     width:40px;
-    border-radius: 30px;
+    border-radius: 40px;
     transform: rotate(80deg);
     position:relative;
     bottom:-15px;
@@ -75,7 +75,7 @@
     /* display: inline-block; */
     content: " ";
     width:40px;
-    border-radius: 30px;
+    border-radius: 40px;
     transform: rotate(-80deg);
     position:relative;
     bottom:-15px;
