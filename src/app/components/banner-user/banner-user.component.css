@@ -14,3 +14,23 @@
     margin: 8px 6px;
 
 }
+
+
+
+
+
+.welcome__text{
+    color:white;
+    margin:30px 20px;
+}
+
+.welcome__text h1{
+    font-weight: bold;
+    font-size: 22px;
+    margin:0;
+    
+}
+
+.welcome__text p{
+    font-size: 16px;
+}
