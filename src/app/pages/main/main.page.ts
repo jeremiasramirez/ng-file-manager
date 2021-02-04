@@ -12,6 +12,15 @@ import { ListStorage } from 'src/app/services/service.list-storage';
 
 export class MainPage{
     
-    constructor(private storageList:ListStorage){}
+    protected listStorage : any[] = [];
+
+
+    constructor(private storageList:ListStorage){
+        this.listStorage = this.storageList.list();
+
+    }
 
 } 
+
+
+
