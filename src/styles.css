@@ -70,6 +70,20 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 }
 
 
+.fadeInRight{
+    width:100% !important; 
+    animation:fadeRight .4s linear !important;
+    transition: .6s;
+}
+@keyframes fadeRight{
+    from{
+        transform:translateX(-100%);
+    }
+    to{
+        transform:translateX(1);
+    }
+}
+
 
 
 

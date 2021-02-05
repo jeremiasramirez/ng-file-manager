@@ -4,7 +4,8 @@ import { Component } from '@angular/core';
     selector: 'files-page',
     templateUrl: './files.page.html',
     styleUrls: [
-        './files.page.css'
+        './files.page.css',
+        '../main/main.page.css'
     ]
 })
 

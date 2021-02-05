@@ -1,4 +1,5 @@
 import { Component, OnInit,Input } from '@angular/core';
+import { ServiceHelpers } from 'src/app/services/service.helpers';
 
 @Component({
   selector: 'app-list-storage',
@@ -8,10 +9,14 @@ import { Component, OnInit,Input } from '@angular/core';
 export class ListStorageComponent implements OnInit {
   @Input() list:any[] = [];
 
-  constructor() { }
+  constructor(private route:ServiceHelpers) { }
 
-  ngOnInit(): void {
-    
+  ngOnInit(): void { }
+
+  toFolder():void{
+    this.route.to("/main/files");
   }
+
+
 
 }

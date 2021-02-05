@@ -5,7 +5,7 @@
     </article>
 
 
-    <article class="container__item animate" *ngFor="let item of list">
+    <article class="container__item animate" *ngFor="let item of list" (click)="toFolder()">
     
         <div class="container__image">
             <img class="toIcon scale" [src]="item.img" alt="logo">
