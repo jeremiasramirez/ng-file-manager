@@ -57,7 +57,8 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 .fadeInLeft{
     width:100% !important; 
-    animation:fadeLeft .2s linear !important;
+    animation:fadeLeft .4s linear !important;
+    transition: .6s;
 }
 @keyframes fadeLeft{
     from{

@@ -1,25 +1,29 @@
-<article class="container__item">
+<section class="list__storage fadeInLeft">
+
+    <article class="fab__button">
+        <app-icon route="../../../assets/icon/add.svg"></app-icon>
+    </article>
+
     
-    <div class="container__image">
-        <img class="toIcon" src="../../../assets/images/icloud.svg" alt="logo">
-    </div>
+    <article class="container__item" *ngFor="let item of list">
+    
+        <div class="container__image">
+            <img class="toIcon" [src]="item.img" alt="logo">
+        </div>
+    
+        <div class="title__item">
+            <h1>{{ item.name }}</h1>
+            <p class="available"><strong class="percentage">{{ item.percentage }}</strong> Disponible</p>
+        </div>
+    
+        <div>
+            <app-icon route="../../../assets/icon/more.svg"></app-icon>
+        </div>
+    
+    </article>
 
-
-    <div class="title__item">
-        
-        <h1>iCloud</h1>
-        <p class="available"><strong class="percentage">54%</strong> Disponible</p>
-
-    </div>
-
-
-    <div>
-        <app-icon route="../../../assets/icon/more.svg"></app-icon>
-    </div>
-
-
-</article>
-
+    
+</section>
 
 
 
