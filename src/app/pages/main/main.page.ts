@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component ,OnInit} from '@angular/core';
 import { ListStorage } from 'src/app/services/service.list-storage';
 
 @Component({
@@ -10,14 +10,16 @@ import { ListStorage } from 'src/app/services/service.list-storage';
 })
 
 
-export class MainPage{
+export class MainPage implements OnInit{
     
     public listStorage : any[] = [];
 
 
-    constructor(private storageList:ListStorage){
-        this.listStorage = this.storageList.list();
+    constructor(private storageList:ListStorage){ }
 
+    ngOnInit():void{
+        this.listStorage = this.storageList.list();
+        console.log(this.listStorage)
     }
 
 } 

@@ -25,9 +25,10 @@ import { ListStorageComponent } from './list-storage/list-storage.component';
   exports: [
     
     StartBannerComponent,
-  LoadingPageComponent,
-  BannerUserComponent,
-  IconComponent 
+    LoadingPageComponent,
+    BannerUserComponent,
+    IconComponent ,
+    ListStorageComponent
   ]  
 })
 export class ComponentsModule { }

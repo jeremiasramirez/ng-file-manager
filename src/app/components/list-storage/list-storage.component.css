@@ -1,0 +1,12 @@
+.container__item{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width:300px;
+    background-color: rgba(243, 235, 235, 0.959);
+    height: 120px;
+}
+
+.title__item h1{
+    color: rgb(10, 17, 104);
+}

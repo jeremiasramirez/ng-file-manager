@@ -56,8 +56,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 }
 
 .fadeInLeft{
-    width:100% !important;
-    height:100% !important;
+    width:100% !important; 
     animation:fadeLeft .2s linear !important;
 }
 @keyframes fadeLeft{
@@ -73,3 +72,6 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 
 
+.toIcon{
+    width:50px;
+}

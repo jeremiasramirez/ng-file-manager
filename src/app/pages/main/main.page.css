@@ -1,9 +1,9 @@
 
 
 .container__list__storage{
-    display: flex;
+    /* display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    margin-top: 10px;
+    flex-wrap: wrap; */
+    margin-top: 0px;
 }
