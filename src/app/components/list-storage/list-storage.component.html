@@ -4,11 +4,11 @@
         <app-icon route="../../../assets/icon/add.svg"></app-icon>
     </article>
 
-    
-    <article class="container__item" *ngFor="let item of list">
+
+    <article class="container__item animate" *ngFor="let item of list">
     
         <div class="container__image">
-            <img class="toIcon" [src]="item.img" alt="logo">
+            <img class="toIcon scale" [src]="item.img" alt="logo">
         </div>
     
         <div class="title__item">
