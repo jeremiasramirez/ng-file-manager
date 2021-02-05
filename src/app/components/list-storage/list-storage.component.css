@@ -3,10 +3,30 @@
     justify-content: space-between;
     align-items: center;
     width:300px;
-    background-color: rgba(243, 235, 235, 0.959);
-    height: 120px;
+    margin: 35px 25px;
+    border-radius:17px;
+    cursor:pointer;
+    background-color: rgb(243, 235, 235);
+    height: 105px;
+    transition:.5s;
 }
-
+.container__item:hover * {
+    opacity:.9;
+    transition:.3s;
+}
+.percentage{
+    color: rgb(10, 17, 104);
+    font-size:15px;
+    font-family: sans-serif;
+}
 .title__item h1{
     color: rgb(10, 17, 104);
+    margin-bottom:-5px;
+}
+.available{
+    color: rgb(140, 149, 151);
+}
+
+.container__image{
+    padding-left: 15px; 
 }

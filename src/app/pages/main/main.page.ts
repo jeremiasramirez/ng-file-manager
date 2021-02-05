@@ -18,8 +18,7 @@ export class MainPage implements OnInit{
     constructor(private storageList:ListStorage){ }
 
     ngOnInit():void{
-        this.listStorage = this.storageList.list();
-        console.log(this.listStorage)
+        this.listStorage = this.storageList.list(); 
     }
 
 } 
