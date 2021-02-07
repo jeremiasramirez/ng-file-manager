@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input} from '@angular/core';
 
 @Component({
   selector: 'app-list-files',
@@ -6,10 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./list-files.component.css']
 })
 export class ListFilesComponent implements OnInit {
+  @Input() listFileLists :any[] = [];
 
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit(): void { 
+    console.log(this.listFileLists)
   }
 
 }

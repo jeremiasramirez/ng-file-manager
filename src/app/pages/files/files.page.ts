@@ -12,10 +12,14 @@ import { ListFolders } from 'src/app/services/service.list-storage';
 
 
 export class FilesPage{
-    
-    constructor(private fileList:ListFolders){
-        
-        
+
+    public fileListBand: any[] =[];
+
+    constructor(private fileList:ListFolders){ }
+
+    ngOnInit():void{
+        this.fileListBand = this.fileList.list();
     }
+ 
 
 } 

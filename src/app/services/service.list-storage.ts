@@ -29,6 +29,31 @@ export class ListFolders{
     constructor(){
        
     }
+
+    list() :any[]{
+        return [
+            {
+                name: 'My favorite',
+                created: 'Created 03/2020',
+                image: '../../../assets/images/star.svg'
+            },
+            {
+                name: 'Portfolio',
+                created: 'Created 08/2021',
+                image: '../../../assets/images/loading.svg'
+            },
+            {
+                name: 'Photos',
+                created: 'Created 03/2020',
+                image: '../../../assets/images/image.svg'
+            },
+            {
+                name: 'My Music',
+                created: 'Created 03/2021',
+                image: '../../../assets/images/music.svg'
+            }
+        ]
+    }
  
 
     
