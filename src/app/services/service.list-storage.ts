@@ -7,7 +7,7 @@ export class ListStorage{
 
  
  constructor(){
-     console.log("list storage")
+     
  }
 
 
@@ -27,7 +27,7 @@ export class ListStorage{
 export class ListFolders{
 
     constructor(){
-        console.log("list folder")
+       
     }
  
 

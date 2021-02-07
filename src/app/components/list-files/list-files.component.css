@@ -1,0 +1,14 @@
+
+
+
+.container__title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15px;
+}
+
+.container__title h1{
+    font-family: ubuntu;
+    color: rgb(7, 9, 97);
+}

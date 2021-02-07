@@ -7,7 +7,7 @@ import { timer } from "rxjs";
 
 export class ServiceHelpers{
     constructor(private router:Router){
-        console.log("helpers")
+       
     }
 
 

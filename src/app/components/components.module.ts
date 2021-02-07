@@ -9,6 +9,7 @@ import { ListStorageComponent } from './list-storage/list-storage.component';
 import {MatRippleModule} from '@angular/material/core';
 import { BannerFilesComponent } from './banner-files/banner-files.component';
 import { ListFilesComponent } from './list-files/list-files.component';
+import { ListFolders } from '../services/service.list-storage';
  
 
 @NgModule({
@@ -37,6 +38,9 @@ import { ListFilesComponent } from './list-files/list-files.component';
     ListStorageComponent,
     BannerFilesComponent,
     ListFilesComponent 
+  ],
+  providers: [
+    ListFolders
   ]  
 })
 export class ComponentsModule { }
