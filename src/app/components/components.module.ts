@@ -8,6 +8,7 @@ import { IconComponent } from './icon/icon.component';
 import { ListStorageComponent } from './list-storage/list-storage.component';
 import {MatRippleModule} from '@angular/material/core';
 import { BannerFilesComponent } from './banner-files/banner-files.component';
+import { ListFilesComponent } from './list-files/list-files.component';
  
 
 @NgModule({
@@ -19,9 +20,8 @@ import { BannerFilesComponent } from './banner-files/banner-files.component';
   IconComponent,
   ListStorageComponent,
   BannerFilesComponent,
- 
+  ListFilesComponent,
   
- 
 ],
   imports: [
     BrowserModule ,
@@ -35,7 +35,8 @@ import { BannerFilesComponent } from './banner-files/banner-files.component';
     BannerUserComponent,
     IconComponent ,
     ListStorageComponent,
-    BannerFilesComponent 
+    BannerFilesComponent,
+    ListFilesComponent 
   ]  
 })
 export class ComponentsModule { }
