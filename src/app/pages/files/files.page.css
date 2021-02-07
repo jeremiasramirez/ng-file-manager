@@ -1,20 +1,11 @@
 .container__banner__user{
     height: 390px;
     width: 100%;
-    padding:0;
+    padding-top:30px;
+    margin-top:-35px;
     background-color: rgb(68, 29, 209);    
 }
-
-.user_navbar{
-    display:flex;
-    justify-content: space-between;
-}
-
-.user{
-
-    margin: 8px 6px;
-
-}
+ 
  
 
 .welcome__text{
@@ -49,13 +40,13 @@
     border-top-right-radius: 15px;
     position: relative;
     border:none;
-    width: 510px;
+    width: 410px;
     display:flex;
     justify-content: space-around;
     padding: 0px 5px;
     padding-top:10px;
-    height:70px;
-    bottom:0px;
+    height:60px;
+    bottom:-30px;
     background-color:white;
    
 }
@@ -71,4 +62,16 @@
 
 .container__logo__banner img{
     width:200px;
+    height: 180px;
+}
+
+
+.links div p{
+    color:rgb(156, 146, 146);
+    font-family: helvetica;
+}
+
+.links div h1{
+    font-size:20px;
+    color:rgb(24, 13, 121);
 }
