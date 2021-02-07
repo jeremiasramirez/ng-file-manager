@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { ComponentsModule } from '../components/components.module'; 
 import { ROUTING_MAIN } from '../routing/start-app.routing';
 import { ListStorage } from '../services/service.list-storage';
+import { FilesPage } from './files/files.page';
 import { MainPage } from './main/main.page';
 import { StartPage } from './start/start.page';
  
@@ -13,6 +14,7 @@ import { StartPage } from './start/start.page';
     
     StartPage,
     MainPage , 
+    FilesPage
     
   ],
   imports: [
@@ -23,6 +25,7 @@ import { StartPage } from './start/start.page';
   exports: [
     StartPage,
     MainPage, 
+    FilesPage,
     ROUTING_MAIN,  
     ComponentsModule 
   ],
