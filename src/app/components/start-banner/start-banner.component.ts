@@ -18,8 +18,11 @@ export class StartBannerComponent implements OnInit {
   }
 
   toMain() : void{
-    this.helper.to("/main",1600);
-    this.addTimerForLoading(1600)
+    
+    timer(300).subscribe(()=>{
+      this.helper.to("/main",1600);
+      this.addTimerForLoading(1600)
+    });
     
   }
   addTimerForLoading(time:number=100): void{

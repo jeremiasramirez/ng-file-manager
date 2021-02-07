@@ -1,11 +1,11 @@
 <section class="list__storage fadeInLeft">
 
-    <article class="fab__button">
+    <article class="fab__button" matRipple>
         <app-icon route="../../../assets/icon/add.svg"></app-icon>
     </article>
 
 
-    <article class="container__item animate" *ngFor="let item of list" (click)="toFolder()">
+    <article matRipple class="container__item animate" *ngFor="let item of list" (click)="toFolder()">
     
         <div class="container__image">
             <img class="toIcon scale" [src]="item.img" alt="logo">

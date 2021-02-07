@@ -6,6 +6,8 @@ import { LoadingPageComponent } from './loading-page/loading-page.component';
 import { BannerUserComponent } from './banner-user/banner-user.component';
 import { IconComponent } from './icon/icon.component';
 import { ListStorageComponent } from './list-storage/list-storage.component';
+import {MatRippleModule} from '@angular/material/core';
+import { BannerFilesComponent } from './banner-files/banner-files.component';
 
 
 @NgModule({
@@ -15,12 +17,15 @@ import { ListStorageComponent } from './list-storage/list-storage.component';
   LoadingPageComponent,
   BannerUserComponent,
   IconComponent,
-  ListStorageComponent
+  ListStorageComponent,
+  BannerFilesComponent,
+  
  
 ],
   imports: [
     BrowserModule ,
     MatButtonModule,
+    MatRippleModule
   ],
   exports: [
     
@@ -28,7 +33,8 @@ import { ListStorageComponent } from './list-storage/list-storage.component';
     LoadingPageComponent,
     BannerUserComponent,
     IconComponent ,
-    ListStorageComponent
+    ListStorageComponent,
+    BannerFilesComponent,
   ]  
 })
 export class ComponentsModule { }
