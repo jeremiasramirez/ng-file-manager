@@ -8,12 +8,13 @@ import {MatButtonModule} from "@angular/material/button";
 import { ROUTING_MAIN } from './routing/start-app.routing';
 import { PageModule } from './pages/pages.module';
 import { ServiceHelpers } from './services/service.helpers'; 
+// import { BannerFilesComponent } from './components/banner-files/banner-files.component';
  
 @NgModule({
   declarations: [
     
     AppComponent,
-     
+ 
    
   ],
   imports: [

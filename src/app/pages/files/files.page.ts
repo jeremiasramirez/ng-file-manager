@@ -4,14 +4,15 @@ import { Component } from '@angular/core';
     selector: 'files-page',
     templateUrl: './files.page.html',
     styleUrls: [
-        './files.page.css',
-        '../main/main.page.css'
+        './files.page.css'
     ]
 })
 
 
 export class FilesPage{
     
-    constructor(){}
+    constructor(){
+        console.log("klk")
+    }
 
 } 

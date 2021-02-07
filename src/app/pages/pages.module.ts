@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { ComponentsModule } from '../components/components.module';
+// import { BannerFilesComponent } from '../components/banner-files/banner-files.component';
+import { ComponentsModule } from '../components/components.module'; 
 import { ROUTING_MAIN } from '../routing/start-app.routing';
 import { ListStorage } from '../services/service.list-storage';
 import { MainPage } from './main/main.page';
@@ -11,7 +12,7 @@ import { StartPage } from './start/start.page';
   declarations: [
     
     StartPage,
-    MainPage
+    MainPage , 
     
   ],
   imports: [
@@ -21,9 +22,9 @@ import { StartPage } from './start/start.page';
   ],
   exports: [
     StartPage,
-    MainPage,
+    MainPage, 
     ROUTING_MAIN,  
-    ComponentsModule,
+    ComponentsModule 
   ],
   providers: [
     ListStorage
