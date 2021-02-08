@@ -10,8 +10,6 @@ export class ListFilesComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void { 
-    console.log(this.listFileLists)
-  }
+  ngOnInit(): void {   }
 
 }

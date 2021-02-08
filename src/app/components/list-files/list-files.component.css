@@ -15,12 +15,24 @@
 
 
 
+.container__folders__item{
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    display: inline-flex !important;
+    justify-content: center !important; 
+    align-items: center !important;
+    flex-wrap: wrap !important;
+    flex-direction: row;
+}
+
 
 
 .folder{
     width: 170px;
     height: 170px;
     border-radius: 14px;
+    margin: 12px;
     cursor:pointer;
     background-color: rgb(231, 224, 224);
 }
